@@ -1,6 +1,6 @@
 import { expect as expectCDK, matchTemplate, MatchStyle } from '@aws-cdk/assert';
 import * as cdk from '@aws-cdk/core';
-import * as DemoWebsocketApigwEks from '../lib/demo-websocket-apigw-eks-stack';
+import * as DemoWebsocketApigwEks from 'src/demo-websocket-apigw-eks-stack';
 
 test('Empty Stack', () => {
     const app = new cdk.App();
