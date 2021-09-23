@@ -1,6 +1,6 @@
 import * as cdk from '@aws-cdk/core';
 
-export class DemoWebsocketApigwWithEksStack extends cdk.Stack {
+export class DemoWebsocketApigwEksStack extends cdk.Stack {
   constructor(scope: cdk.Construct, id: string, props?: cdk.StackProps) {
     super(scope, id, props);
 

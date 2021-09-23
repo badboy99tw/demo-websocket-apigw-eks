@@ -1,8 +1,8 @@
 {
-  "name": "demo-websocket-apigw-with-eks",
+  "name": "demo-websocket-apigw-eks",
   "version": "0.1.0",
   "bin": {
-    "demo-websocket-apigw-with-eks": "bin/demo-websocket-apigw-with-eks.js"
+    "demo-websocket-apigw-eks": "bin/demo-websocket-apigw-eks.js"
   },
   "scripts": {
     "build": "tsc",
