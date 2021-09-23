@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import 'source-map-support/register';
 import * as cdk from '@aws-cdk/core';
-import { DemoWebsocketApigwEksStack } from '../lib/demo-websocket-apigw-eks-stack';
+import { DemoWebsocketApigwEksStack } from '../src/demo-websocket-apigw-eks-stack';
 
 const app = new cdk.App();
 new DemoWebsocketApigwEksStack(app, 'DemoWebsocketApigwEksStack', {
